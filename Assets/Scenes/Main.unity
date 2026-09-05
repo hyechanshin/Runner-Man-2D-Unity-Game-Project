@@ -667,6 +667,7 @@ MonoBehaviour:
   JumpForce: 15
   PlayerRigidBody: {fileID: 1084035953}
   PlayernAnimator: {fileID: 1084035950}
+  PlayerCollider: {fileID: 1084035954}
 --- !u!1 &1146340975
 GameObject:
   m_ObjectHideFlags: 0
