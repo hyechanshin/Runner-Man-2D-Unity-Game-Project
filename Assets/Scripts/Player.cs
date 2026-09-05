@@ -16,10 +16,11 @@ public class Player : MonoBehaviour
 
     public BoxCollider2D PlayerCollider;
 
-    private bool isGrounded;
+    // Need to change the below public classes to private later
+    public bool isGrounded;
 
-    private int lives = 3;
-    private bool isInvincible = false;
+    public int lives = 3;
+    public bool isInvincible = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     void Start()

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4593682232689841223}
   - component: {fileID: 7448706762230888012}
   - component: {fileID: 7629335304368462622}
+  - component: {fileID: 7336460471716041139}
   - component: {fileID: 1045006481866751057}
-  - component: {fileID: 2660032799637882964}
   m_Layer: 0
   m_Name: Halmoni
   m_TagString: enemy
@@ -131,6 +131,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Mover
   moveSpeed: 3
+--- !u!70 &7336460471716041139
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2364601338941144918}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.84, y: 1.44}
+  m_Direction: 0
 --- !u!114 &1045006481866751057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,26 +180,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a09741adc080b2498e1a24863e38ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
---- !u!136 &2660032799637882964
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2364601338941144918}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.33479935
-  m_Height: 1.44
-  m_Direction: 1
-  m_Center: {x: 0.08520061, y: 0, z: 0}
