@@ -9,16 +9,22 @@ public class Spawner : MonoBehaviour
 
     [Header("References")]
     public GameObject[] gameObjects;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+
+    //This is a method that is being called when we enable the element. 
+    void OnEnable()
     {
         Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));
+    }
+
+    void OnDisable()
+    {
+        CancelInvoke();
     }
 
     void Spawn()
     {
         GameObject randomObject = gameObjects[Random.Range(0, gameObjects.Length)];
         Instantiate(randomObject, transform.position, Quaternion.identity);
-        Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));
+        Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));    
     }
 }
