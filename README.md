@@ -5,6 +5,7 @@
 A 2D endless runner built in Unity where a food-delivery runner sprints through a dusk-lit Korean street, dodging enemies and grabbing ingredients to survive as long as possible.
 
 > 🎥 Trailer: `https://youtu.be/MnwQKv1vyFM`
+
 > GamePlay:  `https://play.unity.com/en/games/a0448229-50a7-46d4-8f90-7574e6229f9e/palipali`
 ---
 
