@@ -1,4 +1,4 @@
-# PaliPali 🏃[U+200D]♂[U+FE0F]💨
+# PaliPali 🏃💨
 
 **빨리빨리** — Korean for *"hurry, hurry."*
 
